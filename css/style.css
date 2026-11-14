@@ -1,0 +1,9 @@
+/* geen style attribuut in html!! */
+body {
+    background-image: url(../images/free-to-use.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;  /*NOG VERANDEREN !!!*/
+}
