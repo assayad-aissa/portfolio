@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aïssa Assayad, student systeem- en netwerkbeheer - de contactpagina van mijn portfoliowebsite</title>
-    <meta name="description" content="Op zoek naar een stagiair systeem- en netwerkbeheer? Neem eenvoudig contact op met Aïssa Assayad via het contactformulier.">
+    <meta name="description"
+        content="Op zoek naar een stagiair systeem- en netwerkbeheer? Neem eenvoudig contact op met Aïssa Assayad via het contactformulier.">
 
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
 
@@ -20,10 +21,10 @@
 <body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
 
     <a href="#inhoud"
-        class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sky-800">Ga
+        class="sr-only focus:not-sr-only focus:absolute focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sky-800">Ga
         naar de inhoud</a>
 
-    <div class="max-w-7xl mx-auto px-4 py-6 w-full grow flex flex-col justify-between">
+    <div class="max-w-7xl mx-auto px-4 py-6 w-full flex-1 flex flex-col justify-between">
 
 
         <header
@@ -31,10 +32,11 @@
             <p class="text-2xl font-bold tracking-tight text-sky-600">Aïssa Assayad</p>
 
             <input type="checkbox" id="menu-knop" class="peer sr-only">
-            <label for="menu-knop" class="cursor-pointer rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-100 peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-sky-600 md:hidden ">Menu</label>
+            <label for="menu-knop"
+                class="cursor-pointer rounded-lg border border-gray-300 px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-100 md:hidden ">Menu</label>
 
-            <nav class="hidden w-full peer-checked:block md:block md:w-auto border-t border-gray-200 pt-3" aria-label="Hoofdmenu">
-                <ul class="flex flex-col md:flex-row justify-center items-center gap-2 sm:gap-4 text-sm md:text-base">
+            <nav class="hidden w-full peer-checked:block md:block pt-3" aria-label="Hoofdmenu">
+                <ul class="flex flex-col md:flex-row justify-center  items-center gap-2 sm:gap-4 text-sm md:text-base">
                     <li>
                         <a href="index.html"
                             class="block px-4 py-2 rounded-lg text-gray-700 hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Home</a>
@@ -67,8 +69,8 @@
                         zijn verplicht.</p>
                 </header>
 
-                <form name="contact" method="POST" data-netlify="true" class="space-y-4 pt-2">
-                    <div>
+                <form name="contact" method="POST" data-netlify="true" class="pt-2">
+                    <div class="pb-2">
                         <label for="naam" class="block text-sm font-semibold text-gray-700 mb-1">
                             Naam <span class="text-red-700" aria-hidden="true">*</span>
                         </label>
@@ -77,7 +79,7 @@
                             placeholder="Jouw volledige naam">
                     </div>
 
-                    <div>
+                    <div class="pb-2">
                         <label for="email" class="block text-sm font-semibold text-gray-700 mb-1">
                             E-mailadres <span class="text-red-700" aria-hidden="true">*</span>
                         </label>
@@ -86,7 +88,7 @@
                             placeholder="jouw.email@example.com">
                     </div>
 
-                    <div>
+                    <div class="pb-2">
                         <label for="bericht" class="block text-sm font-semibold text-gray-700 mb-1">
                             Bericht <span class="text-red-700" aria-hidden="true">*</span>
                         </label>
@@ -95,7 +97,7 @@
                             placeholder="Schrijf hier je bericht..."></textarea>
                     </div>
 
-                    <div>
+                    <div class="pb-2">
                         <button type="submit"
                             class="px-6 py-2.5 bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded-lg shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">
                             Verstuur bericht
@@ -108,21 +110,21 @@
 
             <aside class="bg-white border border-gray-200 p-6 rounded-xl shadow-sm flex flex-col gap-6">
                 <section>
-                    <h2 class="text-lg font-bold text-gray-900 mb-3 pb-2 border-b border-gray-100">Gegevens</h2>
-                    <ul class="text-sm text-gray-600 space-y-3">
-                        <li><strong>Naam:</strong> Aïssa Assayad</li>
-                        <li><strong>Opleiding:</strong> Systeem- en Netwerkbeheer</li>
-                        <li><strong>School:</strong> AP Hogeschool Antwerpen</li>
+                    <h2 class="text-lg font-bold text-gray-900 mb-4 pb-2 border-b border-gray-100">Gegevens</h2>
+                    <ul class="text-sm">
+                        <li class="pb-2"><strong>Naam:</strong> Aïssa Assayad</li>
+                        <li class="pb-2"><strong>Opleiding:</strong> Systeem- en Netwerkbeheer</li>
+                        <li class="pb-2"><strong>School:</strong> AP Hogeschool Antwerpen</li>
                     </ul>
                 </section>
 
                 <section class="pt-4 border-t border-gray-100">
                     <h3 class="font-bold text-gray-900 text-sm mb-3">Socials</h3>
-                    <ul class="text-sm space-y-2">
-                        <li><a href="#"
+                    <ul class="text-sm">
+                        <li class="pb-2"><a href="#"
                                 class="text-sky-600 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">LinkedIn</a>
                         </li>
-                        <li><a href="#"
+                        <li class="pb-2"><a href="#"
                                 class="text-sky-600 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">GitHub</a>
                         </li>
                     </ul>
